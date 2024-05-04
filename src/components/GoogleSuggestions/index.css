@@ -1,0 +1,79 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.google-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .google-suggestions-container {
+    max-width: 550px;
+  }
+}
+
+.google-logo {
+  width: 190px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+.input-suggestions-container {
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 90%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-img {
+    width: 20px;
+  }
+}
+
+.input-element {
+  color: #64748b;
+  width: 98%;
+  border-width: 0px;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 16px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    font-size: 17px;
+  }
+}
+
+.suggestions-list {
+  padding-left: 10px;
+  padding-right: 12px;
+}
